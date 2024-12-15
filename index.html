@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #e7e7e7;
+
+    }
+    .tab{
+       text-align: center;
+    }
+    .tab-main{
+        margin: 80px 420px;
+        
+    }
+    h1{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .tab {
+        width: 500px;
+        overflow: hidden;
+    }
+
+    .tab button {
+        background: #90caf8;
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .tab button:hover {
+        background: #74aedd;
+    }
+
+    .tab button.active {
+        background: #fff;
+    }
+
+    .tabcontent {
+        background: #fff;
+        width: 500px;
+        padding: 12px;
+        line-height: 21px;
+        font-family: arial;
+        display: none;
+    }
+</style>
+
+<body>
+   
+    <h1>Akbar Ali Javascript Tabs</h1>
+
+    <div class="tab-main">
+        <div class="tab">
+            <button class="tablinks" data-tab="tab1">Tab 1</button>
+            <button class="tablinks" data-tab="tab2">Tab 2</button>
+            <button class="tablinks" data-tab="tab3">Tab 3</button>
+        </div>
+
+        <div id="tab1" class="tabcontent">
+            <h2>Tab 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia eos quam, omnis consequatur
+                officia.
+                Velit aliquam est corporis non animi dolores harum earum doloremque dolorum, modi voluptatem rerum.
+                Ducimus.
+            </p>
+        </div>
+        <div id="tab2" class="tabcontent">
+            <h2>Tab 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia eos quam, omnis consequatur
+                officia.
+                Velit aliquam est corporis non animi dolores harum earum doloremque dolorum, modi voluptatem rerum.
+                Ducimus.
+            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci consequuntur deserunt ad quidem, unde
+                itaque dolores nemo aperiam explicabo a!</p>
+        </div>
+        <div id="tab3" class="tabcontent">
+            <h2>Tab 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia eos quam, omnis consequatur
+                officia.
+                Velit aliquam est corporis non animi dolores harum earum doloremque dolorum, modi voluptatem rerum.
+                Ducimus.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quas.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
